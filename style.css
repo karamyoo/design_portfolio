@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0px;
+}
+body {
+    font-family:"Inter";
+    font-weight: 300;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    font-size: 2.4rem;
+    line-height: 4rem;
+    letter-spacing: 0.02rem;
+}
+h2{
+    font-size: 1.6rem;
+    font-weight: 400;
+    text-align:center;
+}
+h3{
+    font-size: 1.6rem;
+    font-weight: 100;
+    text-align:center;
+}
+
+h4{
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-align:Left;
+}
+
+section {
+    /*background: pink;*/
+    width:100vw;
+    height: 80px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+/*div {
+    width: 25%;
+    height: 80px;
+}*/
+
+.flex-container {
+    display: flex;
+    width: 100%;
+}
+
+
+.logo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center| baseline;
+    flex:2;
+    padding-left:40px;
+    background: url(Karam Yoo.svg);
+    background-size:cover;
+
+}
+.logo img{
+    width:60%;
+}
+.middle{
+    /*background-color: lightyellow;*/
+    display:flex;
+    flex:8;
+}
+.topnav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center| baseline;
+    flex:2;
+    padding:40px;
+}
+
+.topnav a{
+    padding:0px 20px;
+}
+
+.flex-container.large{
+    height: auto;
+}
+
+.flex-container.large > div{
+    height:100%;
+}
+.left.logo{
+    /*background-color: lightblue;*/
+    /* justify-content: flex-start;
+    display:flex;
+    flex:2;
+    padding:40px; */
+}
+
+.intro{
+    /*background-color:lightcoral;*/
+    display: block;
+    padding:80px 0px;
+}
+
+.right{
+    /*background-color: lightblue;*/
+    display:flex;
+    justify-content: flex-end;
+    flex:2;
+    padding:40px;
+}
+
+.flex-container.footer{
+    width: 100vw;
+}
+.flex-container.footer > div{
+    width:100%;
+}
+footer {
+    background-color: #C4C4C4;
+    position:fixed;
+    display:inline-flex;
+    bottom:0px;
+    padding-right: 20px;
+    text-align: center;
+    vertical-align: 40px;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    height:80px;
+}
+.footer a{
+    padding: 0px 40px;
+}
+.middle.hero{
+    padding:40px 0px 20px 0px;
+}
+.middle.hero > div{
+    height:75vw;
+    width:100%;
+}
+
+.hero img{
+    display:block;
+    height:auto;
+    width:100%;
+    border-radius: 15px 15px 15px 15px;
+}
+
+.caption{
+    padding-bottom: 20px;
+}
